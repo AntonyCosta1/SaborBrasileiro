@@ -1,4 +1,4 @@
-export { apiFetch } from "./api";
+import { apiFetch } from "./api";
 
 export async function getMenuItens(){
     return apiFetch("/menu");
